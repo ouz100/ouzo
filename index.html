@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>University website-Easy tutoriels</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2? family=poppins:wght@100;200;300;400;600; 700&display=swap ">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/font-awesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images-logo.jpg" alt=""></a>
+            <div class="nav-links" id="navalinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">COURSE</a></li>
+                    <li><a href="">BLOG</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+                <img src="part-blurry-image.webp">
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+    <div class="tex-box">
+        <h1>wolds' Bigest University</h1>
+        <p>Making website is now one of the easiest thing in the world. you
+            just need to learn html, css,<br> javascript and you are good to go.
+        </p>
+        <a href="" class="hero-btn">Visite Us To know More</a>
+    </div>
+
+    </section>
+
+
+
+
+
+    <!------ course ------>
+
+    <section class="course">
+        <h1>Courses We offer</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+    </section>
+
+
+
+
+
+
+
+    <!--------JavasScript for Toggle Menu------>
+    <script>
+
+        var navLink = document.getElementById("navLinks")
+
+        function showMenu(){
+            navLinks.style.right ="0";   
+        }
+        function hideMenu(){
+            navLinks.style.right ="-200px";
+        }
+    </script>
+
+</body>
+</html>
